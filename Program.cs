@@ -1,12 +1,10 @@
-﻿using System;
-using TatukGIS.NDK;
+﻿using TatukGIS.NDK;
 using TatukGIS.NDK.Common;
 
 namespace SimpleMap
 {
     public class Program
     {
-        [STAThread]
         static void Main()
         {
             GisLicense.Initialize();
